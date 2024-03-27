@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viswaprasath Sekar</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src="https://kit.fontawesome.com/91675f0733.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id = "header">
+        <div class = "container">
+            <nav>
+                <img src = "images/logomy.png" class = "logo">
+                <ul id="sidemenu">
+                    <li><a href = "#header">Home</a></li>
+                    <li><a href = "#about">About</a></li>
+                    <li><a href = "#services">Services</a></li>
+                    <li><a href = "#portfolio">Portfolio</a></li>
+                    <li><a href = "#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class = "ht">
+                <h1>Hi, I'm <span>Viswaprasath Sekar</span></h1>
+                <p>Data Scientist</p>
+            </div>
+        </div>
+    </div>
+<!-------------about------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/us.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p><br>
+                Greetings! I'm Viswaprasath Sekar, and I'm thrilled to share with you the breadth and depth of my skills, 
+                Education and Certificates which traverse both technical prowess and creative ingenuity. As a versatile individual, 
+                I've honed a diverse skill set that allows me to thrive in a variety of domains.<br> 
+                Here's a closer look at what I bring to the table:
+                </p>
+                <div class="tab-titles">
+                    <p class = "tab-links active-link" onclick="opentab('Skills')" >Skills</p>
+                    <p class = "tab-links" onclick="opentab('Education')">Education</p>
+                    <p class = "tab-links" onclick="opentab('Certificates')">Certificates</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Programming Languages:<br></span>Proficient in C/C++, Java, Python, and R. 
+                            Experienced in crafting efficient algorithms and developing robust.</li>
+                        <li><span>Data Technologies:<br></span>Skilled in SQL for data management and manipulation. 
+                            Well-versed in Apache Spark, Hive, HBase, Hadoop, and Pig for big data processing and analytics.</li>
+                        <li><span>Data Visualization and Analysis:<br></span>Proficient in Tableau and Power BI, 
+                            MS Excel for data analysis, visualization, reporting,and extracting valuable insights 
+                            to drive informed decision-making.</li>
+                        <li><span>Web Development:<br></span>Knowledgeable in HTML and CSS, with experience in creating engaging and responsive web interfaces.</li>
+                        <li><span>Big Data Ecosystem:<br></span>Experienced in Apache Spark, Hive, HBase, Hadoop, and Pig, 
+                            leveraging these technologies to tackle large-scale data processing challenges.</li>
+                        <li><span>Digital Marketing: <br></span>Well-versed in digital marketing strategies, 
+                            adept at leveraging online platforms to reach target audiences effectively.</li>
+                        <li><span> Design Tools:<br></span>Skilled in Figma for UI/UX design, translating concepts into visually appealing 
+                            and user-friendly interfaces.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>B.Tech. in Computer Science:<br></span>Lovely Proffessional University : 2020 - Present<br>Agreegate CGPA: <span>7.84</span></li>                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Certificates">
+                    <ul>
+                        <li><span>JAVA full stack<br></span>Cipher School Certified : Jan '23 - Feb '23<br>Technologies learned: Core Java, OOPs concepts, and use of
+                            Springboot framework.<br>
+                            Gained hands-on experience in Back-end development.<br>
+                            Developed, maintained, and implemented web applications.</li>
+                        <li><span>Python and Machine learning<br></span>IBM certified : Jun '22 - Jul '22<br>Technologies learned: Basic python, GUI, OOPs concepts,
+                            Libraries, packages, and some basic ML algorithms.<br>
+                            Gained hands-on experience in Data preprocessing and Data
+                            normalization.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<!-- -------------Services--------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <h2>Data Analysis</h2>
+                <p>I am specialized in analyzing data. Results, 
+                    trends and recommendations are clearly 
+                    presented in reports or tools.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-line"></i>
+                <h2>Predictive Modeling</h2>
+                <p>I create predictive models using data analysis, 
+                    machine learning, and statistical techniques for 
+                    accurate forecasting.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Big data analysis</h2>
+                <p>Analyzing large datasets to derive valuable insights 
+                    and drive informed decision-making processes.</p>
+                    <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------------portfolio--------------  -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/1.png">
+                <div class="layer">
+                    <h3>Sepsis Diagnosis</h3>
+                    <p>Lime, SHAP, and CAM models decode sepsis predictions, 
+                        revealing features' impact and image-based insights 
+                        for transparent, trustworthy healthcare algorithms.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/2.png">
+                <div class="layer">
+                    <h3>Super car price prediction</h3>
+                    <p> Contrasting bagging and boosting methods to enhance accuracy, 
+                        leveraging ensemble learning for dynamic forecasting insights 
+                        and predict future inflation of car price.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/3.png">
+                <div class="layer">
+                    <h3>Netflix analysis</h3>
+                    <p>Delve into Netflix data analysis, crafting an intuitive 
+                        dashboard for insights. Uncover viewer trends, 
+                        content preferences, and engagement metrics.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class ="btn">See more</a>
+
+    </div>
+</div>
+<!-- ------------contact------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 0123456789</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/viswavichuvip"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/Viswa02code"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/__thewrongone__/?igsh=MXY0a3l3cGF5MzNubA%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/viswaprasad-s/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>I hope it left a positive impression <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }  
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");  
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script> 
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx-4URy1iONMK87psJeKfn0AY68gze49-PtaE0meEuy2YnSTO6OAEszweoL9JAKjE3-/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>          
+</body>
+</html>
